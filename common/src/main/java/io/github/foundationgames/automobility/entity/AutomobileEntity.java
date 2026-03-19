@@ -1090,10 +1090,6 @@ public class AutomobileEntity extends Entity implements RenderableAutomobile, En
                         this.automobileOnGround |= Shapes.joinIsNotEmpty(blockShape, groundCuboid, BooleanOp.AND);
                         this.isFloorDirectlyBelow |= Shapes.joinIsNotEmpty(blockShape, floorCuboid, BooleanOp.AND);
 
-                        if (getControllingPassenger() instanceof Player) {
-                            Automobility.LOGGER.info(pos.toString());
-                        }
-
                         wallHit |= Shapes.joinIsNotEmpty(blockShape, wallCuboid, BooleanOp.AND);
                         stepWallHit |= Shapes.joinIsNotEmpty(blockShape, stepWallCuboid, BooleanOp.AND);
                     }
@@ -1101,11 +1097,6 @@ public class AutomobileEntity extends Entity implements RenderableAutomobile, En
             }
         }
         this.touchingWall = (wallHit && stepWallHit);
-
-        if (getControllingPassenger() instanceof Player) {
-            Automobility.LOGGER.info("Hello World");
-
-        }
 
         var otherColliders = new HashSet<CollisionArea>();
         this.accumulateCollisionAreas(otherColliders);
