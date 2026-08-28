@@ -1,0 +1,48 @@
+{
+  "name": "arcadia_regent",
+  "modelId": "frame_arcadia_regent",
+  "texturePath": "textures/entity/automobile/frame/arcadia_regent.png",
+  "modelPath": "automobile/frame/arcadia_regent",
+  "weight": 0.82,
+  "wheelBase": [
+    {
+      "end": "BACK",
+      "side": "LEFT",
+      "forward": -19,
+      "right": -8.7,
+      "scale": 1,
+      "yaw": 0
+    },
+    {
+      "end": "BACK",
+      "side": "RIGHT",
+      "forward": -19,
+      "right": 8.7,
+      "scale": 1,
+      "yaw": 180
+    },
+    {
+      "end": "FRONT",
+      "side": "LEFT",
+      "forward": 19,
+      "right": -8.7,
+      "scale": 1,
+      "yaw": 0
+    },
+    {
+      "end": "FRONT",
+      "side": "RIGHT",
+      "forward": 19,
+      "right": 8.7,
+      "scale": 1,
+      "yaw": 180
+    }
+  ],
+  "lengthPx": 50,
+  "seatHeight": 10,
+  "enginePosBack": 10,
+  "enginePosUp": 4,
+  "rearAttachmentPos": 20,
+  "frontAttachmentPos": 23,
+  "yRot": -90
+}

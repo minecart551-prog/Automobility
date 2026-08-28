@@ -1,0 +1,26 @@
+{
+  "type": "automobility:auto_mechanic_table",
+  "category": "automobility:frames",
+  "sortnum": 902,
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "item": "automobility:automobile_frame",
+    "component": "automobility:trailbreaker_utility"
+  }
+}
