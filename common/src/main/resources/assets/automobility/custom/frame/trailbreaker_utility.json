@@ -1,0 +1,48 @@
+{
+  "name": "trailbreaker_utility",
+  "modelId": "frame_trailbreaker_utility",
+  "texturePath": "textures/entity/automobile/frame/trailbreaker_utility.png",
+  "modelPath": "automobile/frame/trailbreaker_utility",
+  "weight": 0.96,
+  "wheelBase": [
+    {
+      "end": "BACK",
+      "side": "LEFT",
+      "forward": -19,
+      "right": -10.5,
+      "scale": 1,
+      "yaw": 0
+    },
+    {
+      "end": "BACK",
+      "side": "RIGHT",
+      "forward": -19,
+      "right": 10.5,
+      "scale": 1,
+      "yaw": 180
+    },
+    {
+      "end": "FRONT",
+      "side": "LEFT",
+      "forward": 19,
+      "right": -10.5,
+      "scale": 1,
+      "yaw": 0
+    },
+    {
+      "end": "FRONT",
+      "side": "RIGHT",
+      "forward": 19,
+      "right": 10.5,
+      "scale": 1,
+      "yaw": 180
+    }
+  ],
+  "lengthPx": 51,
+  "seatHeight": 10,
+  "enginePosBack": 10,
+  "enginePosUp": 4,
+  "rearAttachmentPos": 20,
+  "frontAttachmentPos": 23,
+  "yRot": -90
+}

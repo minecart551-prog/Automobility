@@ -1,0 +1,48 @@
+{
+  "name": "bastion_imperial",
+  "modelId": "frame_bastion_imperial",
+  "texturePath": "textures/entity/automobile/frame/bastion_imperial.png",
+  "modelPath": "automobile/frame/bastion_imperial",
+  "weight": 1.05,
+  "wheelBase": [
+    {
+      "end": "BACK",
+      "side": "LEFT",
+      "forward": -21,
+      "right": -10,
+      "scale": 1,
+      "yaw": 0
+    },
+    {
+      "end": "BACK",
+      "side": "RIGHT",
+      "forward": -21,
+      "right": 10,
+      "scale": 1,
+      "yaw": 180
+    },
+    {
+      "end": "FRONT",
+      "side": "LEFT",
+      "forward": 21,
+      "right": -10,
+      "scale": 1,
+      "yaw": 0
+    },
+    {
+      "end": "FRONT",
+      "side": "RIGHT",
+      "forward": 21,
+      "right": 10,
+      "scale": 1,
+      "yaw": 180
+    }
+  ],
+  "lengthPx": 54,
+  "seatHeight": 10,
+  "enginePosBack": 10,
+  "enginePosUp": 4,
+  "rearAttachmentPos": 20,
+  "frontAttachmentPos": 23,
+  "yRot": -90
+}

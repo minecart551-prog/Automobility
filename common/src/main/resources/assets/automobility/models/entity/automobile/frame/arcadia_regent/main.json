@@ -1,0 +1,386 @@
+{
+  "texture": {
+    "width": 64,
+    "height": 64
+  },
+  "bones": {
+    "main": {
+      "cuboids": [],
+      "children": {
+        "body": {
+          "cuboids": [
+            {
+              "name": "lower_chassis",
+              "offset": [
+                -25,
+                5,
+                -8
+              ],
+              "dimensions": [
+                50,
+                5,
+                16
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "name": "hood",
+              "offset": [
+                13,
+                10,
+                -8
+              ],
+              "dimensions": [
+                10,
+                3,
+                16
+              ],
+              "uv": [
+                0,
+                8
+              ]
+            },
+            {
+              "name": "roof",
+              "offset": [
+                -10,
+                18,
+                -8
+              ],
+              "dimensions": [
+                23,
+                2,
+                16
+              ],
+              "uv": [
+                0,
+                32
+              ]
+            },
+            {
+              "name": "front_bumper",
+              "offset": [
+                23,
+                6,
+                -9
+              ],
+              "dimensions": [
+                3,
+                3,
+                18
+              ],
+              "uv": [
+                48,
+                0
+              ]
+            },
+            {
+              "name": "rear_bumper",
+              "offset": [
+                -26,
+                6,
+                -9
+              ],
+              "dimensions": [
+                3,
+                3,
+                18
+              ],
+              "uv": [
+                48,
+                0
+              ]
+            },
+            {
+              "name": "left_sill",
+              "offset": [
+                -21,
+                4,
+                -10
+              ],
+              "dimensions": [
+                42,
+                2,
+                2
+              ],
+              "uv": [
+                0,
+                32
+              ]
+            },
+            {
+              "name": "right_sill",
+              "offset": [
+                -21,
+                4,
+                8
+              ],
+              "dimensions": [
+                42,
+                2,
+                2
+              ],
+              "uv": [
+                0,
+                32
+              ]
+            }
+          ]
+        },
+        "glass": {
+          "cuboids": [
+            {
+              "name": "windshield",
+              "offset": [
+                11,
+                13,
+                -7
+              ],
+              "dimensions": [
+                2,
+                6,
+                14
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            },
+            {
+              "name": "rear_glass",
+              "offset": [
+                -10,
+                13,
+                -7
+              ],
+              "dimensions": [
+                2,
+                6,
+                14
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            },
+            {
+              "name": "left_window_band",
+              "offset": [
+                -8,
+                13,
+                -9
+              ],
+              "dimensions": [
+                19,
+                5,
+                2
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            },
+            {
+              "name": "right_window_band",
+              "offset": [
+                -8,
+                13,
+                7
+              ],
+              "dimensions": [
+                19,
+                5,
+                2
+              ],
+              "uv": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        "lighting": {
+          "cuboids": [
+            {
+              "name": "front_led",
+              "offset": [
+                26,
+                9,
+                -7
+              ],
+              "dimensions": [
+                1,
+                2,
+                14
+              ],
+              "uv": [
+                32,
+                16
+              ]
+            },
+            {
+              "name": "rear_led",
+              "offset": [
+                -27,
+                10,
+                -7
+              ],
+              "dimensions": [
+                1,
+                2,
+                14
+              ],
+              "uv": [
+                32,
+                16
+              ]
+            },
+            {
+              "name": "left_side_light",
+              "offset": [
+                -18,
+                7,
+                -11
+              ],
+              "dimensions": [
+                36,
+                1,
+                1
+              ],
+              "uv": [
+                48,
+                24
+              ]
+            },
+            {
+              "name": "right_side_light",
+              "offset": [
+                -18,
+                7,
+                10
+              ],
+              "dimensions": [
+                36,
+                1,
+                1
+              ],
+              "uv": [
+                48,
+                24
+              ]
+            }
+          ]
+        },
+        "trim": {
+          "cuboids": [
+            {
+              "name": "grille",
+              "offset": [
+                26,
+                7,
+                -4.5
+              ],
+              "dimensions": [
+                1,
+                4,
+                9
+              ],
+              "uv": [
+                48,
+                16
+              ]
+            },
+            {
+              "name": "left_arch_front",
+              "offset": [
+                14,
+                7,
+                -10
+              ],
+              "dimensions": [
+                6,
+                7,
+                2
+              ],
+              "uv": [
+                32,
+                32
+              ]
+            },
+            {
+              "name": "right_arch_front",
+              "offset": [
+                14,
+                7,
+                8
+              ],
+              "dimensions": [
+                6,
+                7,
+                2
+              ],
+              "uv": [
+                32,
+                32
+              ]
+            },
+            {
+              "name": "left_arch_rear",
+              "offset": [
+                -21,
+                7,
+                -10
+              ],
+              "dimensions": [
+                6,
+                7,
+                2
+              ],
+              "uv": [
+                32,
+                32
+              ]
+            },
+            {
+              "name": "right_arch_rear",
+              "offset": [
+                -21,
+                7,
+                8
+              ],
+              "dimensions": [
+                6,
+                7,
+                2
+              ],
+              "uv": [
+                32,
+                32
+              ]
+            },
+            {
+              "name": "roof_console",
+              "offset": [
+                -2.5,
+                20,
+                -2
+              ],
+              "dimensions": [
+                8,
+                1,
+                4
+              ],
+              "uv": [
+                48,
+                8
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
